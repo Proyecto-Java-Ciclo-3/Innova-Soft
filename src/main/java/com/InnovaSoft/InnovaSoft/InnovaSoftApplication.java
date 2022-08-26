@@ -20,6 +20,4 @@ public class InnovaSoftApplication {
 		SpringApplication.run(InnovaSoftApplication.class, args);
 	}
 
-
-
 }
