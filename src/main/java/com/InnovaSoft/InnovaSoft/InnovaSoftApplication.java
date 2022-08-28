@@ -22,7 +22,7 @@ public class InnovaSoftApplication {
 	public String test(){
 
 		Empresa empresa = new Empresa("Innova Soft", "Calle la jeta", "00000", "80000000-3");
-
+		empresa.setNombre("Innova Soft SAS");
 
 		return empresa.getNombre();
 
