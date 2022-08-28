@@ -34,8 +34,7 @@ public class Empleado{
     }
 
     //Constructor lleno
-    public Empleado(int id, String nombre, String correo, String rol, Empresa empresa) {
-        this.id = id;
+    public Empleado(String nombre, String correo, String rol, Empresa empresa) {
         this.nombre = nombre;
         this.correo = correo;
         this.rol = rol;
